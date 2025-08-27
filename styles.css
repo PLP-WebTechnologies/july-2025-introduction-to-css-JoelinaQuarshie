@@ -1,0 +1,67 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    line-height: 1.6; 
+    background-color: #fdfdfd; 
+    color: #333;
+}
+
+.section{
+    border-bottom: 1px dashed #ddd; /* 1px: The thickness of the border *//* solid: The style of the border (a continuous line) or dashed for dash line*/
+    padding: 20px; /* Space inside */
+    margin: 15px; /* Space outside */
+}
+
+
+
+p{
+    color: rgb(36, 7, 88); /* font color*/   
+    font-family: sans-serif; /* Font type */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Font weight */
+}
+
+/*Control text placement within an element.*/
+h2 {
+    text-align: start;
+}
+
+h1 {
+    color: #3498db; /* Text color */
+    background-color: #f1c40f; /* Background color */
+}
+
+#contact /* # is an id selector*/
+{
+    font-weight: lighter;
+    text-transform: none;
+}
+
+.site-footer{ /*class selector is .*/
+    background-color: rgb(12, 0, 22);
+    font-weight: lighter;
+    font-style: italic;
+}
+
+/* Spacing with Padding and Margin
+1. Padding: Space inside the element (around the content).
+2. Margin: Space outside the element (around the border) */
+div {
+    padding: 20px; /* Space inside */
+    margin: 15px; /* Space outside */
+}
+
+/* Example of Styling a Button */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
